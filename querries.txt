@@ -1,0 +1,59 @@
+CREATE DATABASE posts
+
+CREATE TABLE post (
+    id INTEGER PRIMARY KEY AUTOINCREMENT,
+    title TEXT,
+    abstract TEXT,
+    autor TEXT,
+    wrotein DATETIME
+)
+
+INSERT INTO post(title, abstract, autor, wrotein) VALUES (
+"Veja o guia definitivo para conquistar seus objetivos como DEV em 2022",
+"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem cumque suscipit adipisci iste in eos amet neque id ut quis, ullam inventore non itaque placeat sapiente dolore tenetur modi minima!", 
+"Emerson Lima", 
+"2022-01-04"
+)
+
+INSERT INTO post(title, abstract, autor, wrotein) VALUES (
+"Conheça as principais técnicas para conseguir uma vaga internacional em programação",
+"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem cumque suscipit adipisci iste in eos amet neque id ut quis, ullam inventore non itaque placeat sapiente dolore tenetur modi minima!", 
+"Emerson Lima", 
+"2022-01-04"
+)
+
+INSERT INTO post(title, abstract, autor, wrotein) VALUES (
+"Veja a evolução do Front-end na prática",
+"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem cumque suscipit adipisci iste in eos amet neque id ut quis, ullam inventore non itaque placeat sapiente dolore tenetur modi minima!", 
+"Emerson Lima", 
+"2022-01-04"
+)
+
+INSERT INTO post(title, abstract, autor, wrotein) VALUES (
+"Começando no ReactJS em 2022",
+"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem cumque suscipit adipisci iste in eos amet neque id ut quis, ullam inventore non itaque placeat sapiente dolore tenetur modi minima!", 
+"Emerson Lima", 
+"2022-01-04"
+)
+
+INSERT INTO post(title, abstract, autor, wrotein) VALUES (
+"10 dicas para conseguir a vaga desejada",
+"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem cumque suscipit adipisci iste in eos amet neque id ut quis, ullam inventore non itaque placeat sapiente dolore tenetur modi minima!", 
+"Emerson Lima", 
+"2022-01-04"
+)
+
+INSERT INTO post(title, abstract, autor, wrotein) VALUES (
+"Deixe seu código mais semântico com essas dicas",
+"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem cumque suscipit adipisci iste in eos amet neque id ut quis, ullam inventore non itaque placeat sapiente dolore tenetur modi minima!", 
+"Emerson Lima", 
+"2022-01-04"
+)
+
+
+INSERT INTO post(title, abstract, autor, wrotein) VALUES (
+"Use essas dicas nas suas aplicações mobile",
+"Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatem cumque suscipit adipisci iste in eos amet neque id ut quis, ullam inventore non itaque placeat sapiente dolore tenetur modi minima!", 
+"Emerson Lima", 
+"2022-01-04"
+)
