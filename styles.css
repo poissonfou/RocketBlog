@@ -11,7 +11,7 @@
   *{
     margin: 0;
     padding: 0;
-    font-family: Roboto;
+    font-family: "Roboto";
   }
 
   body{
@@ -165,6 +165,36 @@
    .see-more p:hover{
     cursor: pointer;
     color: #c093e0;
+   }
+
+   /*BOTTOM POSTS*/
+   .bottom-posts{
+    display: flex;
+    flex-direction: row;
+    margin-left: 4.6rem;
+   }
+
+   .bottom-posts h2{
+    font-family: "Poppins";
+    color: var(--purple-bg);
+    margin-bottom: 0.7rem;
+   }
+
+   .bottom-post{
+    width: 23rem;
+    margin-left: 1.5rem;
+   }
+
+   .bottom-post p{
+    line-height: 1.5rem;
+   }
+
+   .bottom-imgs{
+    margin-left: 4.8rem;
+   }
+
+   .bottom-imgs img{
+    margin-left: 1rem;
    }
 
   
