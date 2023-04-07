@@ -29,6 +29,7 @@
             <?php foreach($posts as $post):?>
                 <?php if($post["id"] > 4 && $post["id"] < 8):?>
                 <div class="bottom-post">
+                    <p class="bottom-date">Janeiro 04, 2022</p>
                     <h2><?= $post["title"]?></h2>
                     <p><?= $post["abstract"]?></p>
                 </div>

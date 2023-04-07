@@ -1,7 +1,4 @@
 <?php
-
-    session_start();
-
     include_once("server.php");
     include_once("connection.php");
 
@@ -15,4 +12,5 @@
       
       $posts = $stmt->fetchAll();
 
+    $dates = [];
 ?>
