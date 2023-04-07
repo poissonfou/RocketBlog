@@ -3,7 +3,7 @@
 $host = "localhost";
 $dbname = "posts";
 $user = "root";
-$psw = " ";
+$psw = "";
 
 try{
 

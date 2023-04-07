@@ -24,6 +24,8 @@
     width: 100%;
     background-color: var(--purple-bg);
     height: 33rem;
+    display: flex;
+    flex-direction: row;
   }
 
   .green-line{
@@ -31,13 +33,13 @@
     width: 100%;
     background-color: var(--green);
     height: 0.4rem;
-    margin-top: 0rem;
+    margin-top: 5.4rem;
   }
 
   /*NAV-BAR*/
 
   h1{
-    font-family: "Roboto";
+    font-family:"Poppins";
     color: white;
     margin-left: 7rem;
     margin-top: 3rem;
@@ -61,7 +63,7 @@
     display: flex;
     flex-direction: row;
     color: var(--white);
-    margin-left: 15rem;
+    margin-left: 14.4rem;
     margin-top: 4rem;
   }
 
@@ -109,5 +111,60 @@
     margin-top: 0.4rem;
    }
 
+   /*MAIN POST*/
+   .main-title{
+    color: var(--button-bg);
+    margin-top: 8rem;
+    font-size: 2.3rem;
+    margin-bottom: 1rem;
+    font-family:"Poppins";
+   }
+
+   .main-article{
+      display: flex;
+      flex-direction: column;
+      width: 41rem;
+   }
+
+   .main-article p{
+    color: var(--white);
+    margin-left: 7rem;
+    line-height: 1.5rem;
+   }
+
+   .purple-back img{
+    margin-top: 9rem;
+    margin-left: 45rem;
+    height: 20rem;
+    width: 30rem;
+    position: absolute;
+   }
+
+   .see-more{
+    display: flex;
+    flex-direction: row;
+    margin-top: -7rem;
+    margin-left: 7rem;
+   }
+
+   .see-more img{
+    margin-top: 0.05rem;
+    margin-left: 0.5rem;
+   }
+
+   .see-more p{
+    color: var(--button-bg);
+    font-family:"Poppins";
+   }
+
+   .main-title:hover{
+    cursor: pointer;
+    color: #c093e0;
+   }
+
+   .see-more p:hover{
+    cursor: pointer;
+    color: #c093e0;
+   }
 
   
