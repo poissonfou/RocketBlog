@@ -24,7 +24,6 @@
     width: 100%;
     background-color: var(--purple-bg);
     height: 33rem;
-    position: inherit;
   }
 
   .green-line{
@@ -109,7 +108,6 @@
     margin-left: 0.8rem;
     margin-top: 0.4rem;
    }
-
 
 
   

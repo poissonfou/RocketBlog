@@ -1,5 +1,6 @@
 <?php
-    include_once("server.php");
+    include_once("config/server.php");
+    include_once("config/connection.php")
 ?>
 <!DOCTYPE html>
 <html lang="en">
