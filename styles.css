@@ -180,6 +180,11 @@
     margin-bottom: 0.5rem;
    }
 
+   .bottom-posts h2:hover{
+    color: #634479;
+    cursor: pointer;
+   }
+
    .bottom-post{
     width: 23rem;
     margin-left: 1.5rem;
@@ -211,6 +216,11 @@
 
    .middle-section h2{
     color: var(--purple-bg);
+   }
+
+   .middle-section h2:hover{
+    color: #634479;
+    cursor: pointer;
    }
 
    .middle-side-posts{
