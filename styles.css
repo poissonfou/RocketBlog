@@ -43,8 +43,12 @@
     color: white;
     margin-left: 7rem;
     margin-top: 3rem;
+  } 
+
+  h1:hover{
+    cursor: pointer;
   }
-  
+
   .dot{
     color: var(--green);
   }
@@ -69,6 +73,12 @@
 
   .sections p{
     margin-right: 2rem;
+    color: #e4dddd;
+  }
+
+  .sections p:hover{
+    cursor:pointer;
+    color: #fff;
   }
 
   .green-stripe{

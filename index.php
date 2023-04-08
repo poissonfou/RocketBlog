@@ -61,6 +61,14 @@
             <?php endforeach; ?>
     </section>
  </main>
+ <script>
+    id = 1;
+
+    if(id == 1){
+    let page = document.getElementById("home");
+    page.style.color = '#fff';
+}
+ </script>
 <?php
     include_once("templates/footer.php")
 ?>
