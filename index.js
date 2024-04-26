@@ -10,6 +10,7 @@ let header_top = document.getElementById("header-top");
 let header_bottom = document.getElementById("header-bottom");
 
 if (window.innerWidth < 800) {
+  header_bottom.classList = "padding-header-bottom";
   header_bottom.insertAdjacentElement("beforeend", SECTIONS);
 } else {
   header_top.insertBefore(SECTIONS, header_top.children[1]);
@@ -18,8 +19,10 @@ if (window.innerWidth < 800) {
 window.addEventListener("resize", () => {
   if (window.innerWidth < 800 && !header_bottom.children.length) {
     SECTIONS.remove();
+    header_bottom.classList = "padding-header-bottom";
     header_bottom.insertAdjacentElement("beforeend", SECTIONS);
   } else if (window.innerWidth > 800 && header_top.children.length == 2) {
+    header_bottom.classList = "";
     SECTIONS.remove();
     header_top.insertBefore(SECTIONS, header_top.children[1]);
   }
